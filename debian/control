@@ -1,0 +1,18 @@
+Source: libusbgx
+Section: misc
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends:
+ debhelper (>= 9),
+ libconfig-dev,
+Standards-Version: 3.7.2
+
+Package: libusbgx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: libusbg-neXt
+
+Package: libusbgx-dev
+Architecture: any
+Depends: libusbgx (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: libusbg-neXt development headers

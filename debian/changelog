@@ -1,3 +1,9 @@
+libusbgx (0.2.1-1) unstable; urgency=medium
+
+  * Add missing include
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 24 Jan 2020 14:04:38 +0100
+
 libusbgx (0.2.0-1) unstable; urgency=medium
 
   * Initial Maemo Leste packaging

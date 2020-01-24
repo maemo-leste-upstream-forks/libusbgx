@@ -29,6 +29,7 @@
 #include <stdbool.h>
 #include <stdio.h> /* For FILE * */
 #include <malloc.h>
+#include <sys/sysmacros.h>
 
 #include "usbg_version.h"
 
